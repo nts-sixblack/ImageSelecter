@@ -10,12 +10,12 @@ import SwiftUI
 @main
 struct ImageSelectedApp: App {
     
-    @StateObject var imageManager: ImageManager = .shared
+    @StateObject var photoLibrary = PhotoLibrary()
     
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .environmentObject(imageManager)
+                .environmentObject(photoLibrary)
         }
     }
 }

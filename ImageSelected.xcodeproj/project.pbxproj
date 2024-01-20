@@ -7,30 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF022EF52B5C3EC0003C53DA /* PhotoLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF022EF42B5C3EC0003C53DA /* PhotoLibrary.swift */; };
+		AF022EF72B5C3FFC003C53DA /* UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF022EF62B5C3FFC003C53DA /* UICollectionView.swift */; };
 		AFF27CCA2B2607F4003EAADC /* ImageSelectedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF27CC92B2607F4003EAADC /* ImageSelectedApp.swift */; };
 		AFF27CCC2B2607F4003EAADC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF27CCB2B2607F4003EAADC /* ContentView.swift */; };
 		AFF27CCE2B2607F5003EAADC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFF27CCD2B2607F5003EAADC /* Assets.xcassets */; };
 		AFF27CD12B2607F5003EAADC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFF27CD02B2607F5003EAADC /* Preview Assets.xcassets */; };
-		AFF27CD82B26081F003EAADC /* ImageIsInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF27CD72B26081F003EAADC /* ImageIsInView.swift */; };
 		AFF27CDB2B260CF7003EAADC /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = AFF27CDA2B260CF7003EAADC /* URLImage */; };
 		AFF27CDD2B260CF7003EAADC /* URLImageStore in Frameworks */ = {isa = PBXBuildFile; productRef = AFF27CDC2B260CF7003EAADC /* URLImageStore */; };
 		AFF27CDF2B260F08003EAADC /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF27CDE2B260F08003EAADC /* ImageCache.swift */; };
-		AFF27CE12B260F21003EAADC /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF27CE02B260F21003EAADC /* RemoteImage.swift */; };
-		AFF27CE32B261069003EAADC /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF27CE22B261069003EAADC /* ImageManager.swift */; };
-		AFF27CE52B2625E1003EAADC /* MyCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF27CE42B2625E1003EAADC /* MyCustomView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AF022EF42B5C3EC0003C53DA /* PhotoLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLibrary.swift; sourceTree = "<group>"; };
+		AF022EF62B5C3FFC003C53DA /* UICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionView.swift; sourceTree = "<group>"; };
 		AFF27CC62B2607F4003EAADC /* ImageSelected.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageSelected.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFF27CC92B2607F4003EAADC /* ImageSelectedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSelectedApp.swift; sourceTree = "<group>"; };
 		AFF27CCB2B2607F4003EAADC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AFF27CCD2B2607F5003EAADC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFF27CD02B2607F5003EAADC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		AFF27CD72B26081F003EAADC /* ImageIsInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageIsInView.swift; sourceTree = "<group>"; };
 		AFF27CDE2B260F08003EAADC /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
-		AFF27CE02B260F21003EAADC /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
-		AFF27CE22B261069003EAADC /* ImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
-		AFF27CE42B2625E1003EAADC /* MyCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,11 +63,9 @@
 			children = (
 				AFF27CC92B2607F4003EAADC /* ImageSelectedApp.swift */,
 				AFF27CCB2B2607F4003EAADC /* ContentView.swift */,
-				AFF27CD72B26081F003EAADC /* ImageIsInView.swift */,
 				AFF27CDE2B260F08003EAADC /* ImageCache.swift */,
-				AFF27CE02B260F21003EAADC /* RemoteImage.swift */,
-				AFF27CE22B261069003EAADC /* ImageManager.swift */,
-				AFF27CE42B2625E1003EAADC /* MyCustomView.swift */,
+				AF022EF42B5C3EC0003C53DA /* PhotoLibrary.swift */,
+				AF022EF62B5C3FFC003C53DA /* UICollectionView.swift */,
 				AFF27CCD2B2607F5003EAADC /* Assets.xcassets */,
 				AFF27CCF2B2607F5003EAADC /* Preview Content */,
 			);
@@ -163,12 +157,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF022EF72B5C3FFC003C53DA /* UICollectionView.swift in Sources */,
+				AF022EF52B5C3EC0003C53DA /* PhotoLibrary.swift in Sources */,
 				AFF27CCC2B2607F4003EAADC /* ContentView.swift in Sources */,
-				AFF27CD82B26081F003EAADC /* ImageIsInView.swift in Sources */,
 				AFF27CDF2B260F08003EAADC /* ImageCache.swift in Sources */,
-				AFF27CE52B2625E1003EAADC /* MyCustomView.swift in Sources */,
-				AFF27CE32B261069003EAADC /* ImageManager.swift in Sources */,
-				AFF27CE12B260F21003EAADC /* RemoteImage.swift in Sources */,
 				AFF27CCA2B2607F4003EAADC /* ImageSelectedApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
